@@ -1,0 +1,7 @@
+{
+  "name": "remote-terminal",
+  "description": "Start, stop, and check the status of a mobile-accessible remote terminal session. Exposes Claude Code to any phone browser via ttyd + Caddy + ngrok.",
+  "author": {
+    "name": "elliot"
+  }
+}

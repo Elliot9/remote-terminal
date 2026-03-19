@@ -1,0 +1,20 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "elliot9",
+  "description": "elliot9's Claude Code plugins",
+  "owner": {
+    "name": "elliot9"
+  },
+  "plugins": [
+    {
+      "name": "remote-terminal",
+      "description": "Start, stop, and check the status of a mobile-accessible remote terminal session. Exposes Claude Code to any phone browser via ttyd + Caddy + ngrok.",
+      "author": {
+        "name": "elliot9"
+      },
+      "source": "./plugins/remote-terminal",
+      "category": "productivity",
+      "homepage": "https://github.com/elliot9/remote-terminal"
+    }
+  ]
+}
